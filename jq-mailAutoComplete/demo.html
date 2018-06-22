@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mailAutoComplete</title>
+    <link rel="stylesheet" href="jquery.mailAutoComolete.css">
+    <script src="../public/script/jquery.min.js"></script>
+</head>
+<body>
+    <div>
+        <input id="mail" type="text">
+    </div>
+    <script src="jquery.mailAutoComolete.js"></script>
+    <script>
+        $('#mail').mailAutoComplete({
+            emailType: [
+                '@nexuslink.cn',
+                '@foxmail.com',
+            ],
+        });
+    </script>
+</body>
+</html>

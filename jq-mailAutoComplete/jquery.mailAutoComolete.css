@@ -1,0 +1,22 @@
+* {
+    margin:0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+.selector-box {
+    display: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #666;
+    overflow: hidden;
+}
+.selector-box li {
+    padding: 2px 11px;
+}
+.selector-box .active {
+    background: #eee;
+    cursor: pointer;
+}
